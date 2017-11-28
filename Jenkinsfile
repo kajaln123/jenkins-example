@@ -3,7 +3,7 @@
     stages {
         stage('Build') {
             steps {
-                bat 'make'
+                bat 'make install'
             }
         }
     }
