@@ -6,7 +6,7 @@
 
         stage ('Compile') {
             steps {
-                bat 'clean install' 
+                bat 'compile' 
             }
            
         }
