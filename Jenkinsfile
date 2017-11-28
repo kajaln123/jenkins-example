@@ -1,14 +1,10 @@
-   pipeline {
+  pipeline {
     agent any
-  
     stages {
-        
-
-        stage ('Compile') {
+        stage('Build') {
             steps {
-                bat "compile"
+                bat 'set'
             }
-           
         }
     }
 }
