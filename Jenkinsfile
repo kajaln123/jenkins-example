@@ -6,7 +6,7 @@
 
         stage ('Compile') {
             steps {
-                bat 'compile' 
+                bat "compile"
             }
            
         }
