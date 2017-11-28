@@ -4,9 +4,9 @@
     stages {
         
 
-        stage ('Build') {
+        stage ('Compile') {
             steps {
-                sh 'mvn -Dmaven.test.failure.ignore=true install' 
+                bat 'clean install' 
             }
            
         }
